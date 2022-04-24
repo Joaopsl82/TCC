@@ -59,7 +59,7 @@
             <a href="#contact">Contato</a>
          </nav>
 
-         <a href="#contact" class="link-btn">Acesse nosso sistema</a>
+         <a href="login.php" class="link-btn">Acesse nosso sistema</a>
 
          <div id="menu-btn" class="fas fa-bars"></div>
 
@@ -81,7 +81,7 @@
          <div class="content text-center text-md-left">
             <h3>Marque suas consultas sem problemas</h3>
             <p>Com um sistema fácil e intuitivo nós trazemos pra você o conforto e praticidade para marcar suas consultas online.</p>
-            <a href="#contact" class="link-btn">Acesse nosso sistema</a>
+            <a href="login.php" class="link-btn">Acesse nosso sistema</a>
          </div>
       </div>
 
@@ -109,7 +109,7 @@
             <p>Aqui na BluQuery somos apaixonados por saúde e bem estar. E pensando nisso decidimos criar um produto que não só trás um atendimento de qualidade como
                também preserva a sua saúde que é a nossa prioridade, sem burocracia ou fidelidade. Tudo pensado para facilitar a sua vida.
             </p>
-            <a href="#contact" class="link-btn">Acesse nosso sistema</a>
+            <a href="login.php" class="link-btn">Acesse nosso sistema</a>
          </div>
 
       </div>
@@ -169,6 +169,57 @@
 </section>
 
 <!-- services section ends -->
+
+<!-- como funciona section starts  -->
+
+<section class="services" id="services">
+
+   <h1 class="heading">Como funciona a BluQuery?</h1>
+
+   <div class="box-container container">
+
+      <div class="box">
+         <img src="images/calendario.svg" alt="">
+         <h3>Agendamento</h3>
+         <p>
+            O profissional disponibiliza os horários de atendimento via Telemedicina
+            e seu paciente pode marcar a própria consulta.
+         </p>
+      </div>
+
+      <div class="box">
+         <img src="images/triagem.svg" alt="">
+         <h3>Triagem e classificação</h3>
+         <p>
+            Disponibilizado um questionário de triagem ao
+            paciente enquanto aguarda atendimento e classificado por risco.
+         </p>
+      </div>
+
+      <div class="box">
+         <img src="images/pagar.svg" alt="">
+         <h3>Pagamento Online</h3>
+         <p>
+            Nosso marketplace de pagamentos, aceita
+            cartão de crédito e boleto bancário e faz o
+            repasse ao médico automaticamente.
+         </p>
+      </div>
+
+      <div class="box">
+         <img src="images/crescimento.svg" alt="">
+         <h3>Evolução Médica</h3>
+         <p>
+            Todo histórico do paciente fica salvo na Plataforma,
+            independente do profissional que o atendeu.
+         </p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- como funciona section ends -->
 
 <!-- reviews section starts  -->
 
@@ -233,13 +284,13 @@
    <h1 class="heading">Tem dúvidas? Entre em contato</h1>
 
    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-      <?php 
+      <!-- <?php 
          if(isset($message)){
             foreach($message as $message){
                echo '<p class="message">'.$message.'</p>';
             }
          }
-      ?>
+      ?> -->
       <span>seu nome :</span>
       <input type="text" name="name" placeholder="Digite seu nome" class="box" required>
       <span>seu e-mail :</span>
@@ -264,8 +315,8 @@
       <div class="box">
          <i class="fas fa-phone"></i>
          <h3>Número de telefone</h3>
-         <p>+123-456-7890</p>
-         <p>+111-222-3333</p>
+         <p>(11) 4002-8922</p>
+         <p>(11) 7070-3030</p>
       </div>
       
       <div class="box">
