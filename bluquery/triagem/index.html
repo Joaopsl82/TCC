@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Triagem</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('images/fundo.png');">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-49">
+						Triagem
+					</span>
+
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Esse campo é obrigatório">
+						<span class="label-input100">Qual a sua queixa?</span>
+						<input class="input100" type="text" name="queixa" placeholder="Digite sua queixa">
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Esse campo é obrigatório">
+						<span class="label-input100">Você está com febre?</span><br>
+						<input type="checkbox" id="febreS" name="febreF" value="Sim">
+							<label for="Sim"> Sim</label><br>
+							<input type="checkbox" id="febreN" name="febreF" value="Não">
+							<label for="Não"> Não</label><br>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Esse campo é obrigatório">
+						<span class="label-input100">Você está com tosse?</span><br>
+						<input type="checkbox" id="tosseS" name="tosseT" value="Sim">
+							<label for="Sim"> Sim</label><br>
+							<input type="checkbox" id="tosseN" name="tosseT" value="Não">
+							<label for="Não"> Não</label><br>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Esse campo é obrigatório">
+						<span class="label-input100">Você está com espirro?</span><br>
+						<input type="checkbox" id="espirroS" name="espirroE" value="Sim">
+							<label for="Sim"> Sim</label><br>
+							<input type="checkbox" id="espirroN" name="espirroE" value="Não">
+							<label for="Não"> Não</label><br>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Esse campo é obrigatório">
+						<span class="label-input100">Você está com coriza?</span><br>
+						<input type="checkbox" id="corizaS" name="corizaC" value="Sim">
+							<label for="Sim"> Sim</label><br>
+							<input type="checkbox" id="corizaN" name="corizaC" value="Não">
+							<label for="Não"> Não</label><br>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Esse campo é obrigatório">
+						<span class="label-input100">Você está com calafrio?</span><br>
+						<input type="checkbox" id="calafrioS" name="calafrioC" value="Sim">
+							<label for="Sim"> Sim</label><br>
+							<input type="checkbox" id="calafrioN" name="calafrioC" value="Não">
+							<label for="Não"> Não</label><br>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Esse campo é obrigatório">
+						<span class="label-input100">Você está com diarréia?</span><br>
+						<input type="checkbox" id="diarreiaS" name="diarreiaD" value="Sim">
+							<label for="Sim"> Sim</label><br>
+							<input type="checkbox" id="diarreiaN" name="diarreiaD" value="Não">
+							<label for="Não"> Não</label><br>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Esse campo é obrigatório">
+						<span class="label-input100">Você está com dor de garganta?</span><br>
+						<input type="checkbox" id="gargantaS" name="gargantaG" value="Sim">
+							<label for="Sim"> Sim</label><br>
+							<input type="checkbox" id="gargantaN" name="gargantaG" value="Não">
+							<label for="Não"> Não</label><br>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Esse campo é obrigatório">
+						<span class="label-input100">Você está com cefaleia?</span><br>
+						<input type="checkbox" id="cefaleiaS" name="cefaleiaC" value="Sim">
+							<label for="Sim"> Sim</label><br>
+							<input type="checkbox" id="cefaleiaN" name="cefaleiaC" value="Não">
+							<label for="Não"> Não</label><br>
+					</div>
+					
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+								Enviar
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
