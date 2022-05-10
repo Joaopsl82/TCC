@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 // $conn = mysqli_connect('localhost','root','','contact_db') or die('connection failed');
 
@@ -19,10 +19,11 @@
 
 // }
 
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,319 +40,325 @@
    <link rel="stylesheet" href="css/style1.css">
 
 </head>
+
 <body>
-   
-<!-- header section starts  -->
 
-<header class="header fixed-top">
+   <!-- header section starts  -->
 
-   <div class="container">
+   <header class="header fixed-top">
 
-      <div class="row align-items-center justify-content-between">
+      <div class="container">
 
-         <a href="#home" class="logo">Blu<span>Query</span></a>
+         <div class="row align-items-center justify-content-between">
 
-         <nav class="nav">
-            <a href="#home">Home</a>
-            <a href="#about">Sobre Nós</a>
-            <a href="#services">Serviços</a>
-            <a href="#reviews">Comentários</a>
-            <a href="#contact">Contato</a>
-         </nav>
+            <a href="#home" class="logo">Blu<span>Query</span></a>
 
-         <a href="login.php" class="link-btn">Acesse nosso sistema</a>
+            <nav class="nav">
+               <a href="#home">Home</a>
+               <a href="#about">Sobre Nós</a>
+               <a href="#services">Serviços</a>
+               <a href="#reviews">Comentários</a>
+               <a href="#contact">Contato</a>
+            </nav>
 
-         <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="http://localhost:3001/" class="link-btn">Acesse nosso sistema</a>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+         </div>
 
       </div>
 
-   </div>
+   </header>
 
-</header>
+   <!-- header section ends -->
 
-<!-- header section ends -->
+   <!-- home section starts  -->
 
-<!-- home section starts  -->
+   <section class="home" id="home">
 
-<section class="home" id="home">
+      <div class="container">
 
-   <div class="container">
-
-      <div class="row min-vh-100 align-items-center">
-         <div class="content text-center text-md-left">
-            <h3>Marque suas consultas sem problemas</h3>
-            <p>Com um sistema fácil e intuitivo nós trazemos pra você o conforto e praticidade para marcar suas consultas online.</p>
-            <a href="login.php" class="link-btn">Acesse nosso sistema</a>
+         <div class="row min-vh-100 align-items-center">
+            <div class="content text-center text-md-left">
+               <h3>Marque suas consultas sem problemas</h3>
+               <p>Com um sistema fácil e intuitivo nós trazemos pra você o conforto e praticidade para marcar suas
+                  consultas online.</p>
+               <a href="http://localhost:3001/" class="link-btn">Acesse nosso sistema</a>
+            </div>
          </div>
+
       </div>
 
-   </div>
+   </section>
 
-</section>
+   <!-- home section ends -->
 
-<!-- home section ends -->
+   <!-- about section starts  -->
 
-<!-- about section starts  -->
+   <section class="about" id="about">
 
-<section class="about" id="about">
+      <div class="container">
 
-   <div class="container">
+         <div class="row align-items-center">
 
-      <div class="row align-items-center">
+            <div class="col-md-6 image">
+               <img src="images/sobre-nos.png" class="w-100 mb-5 mb-md-0" alt="">
+            </div>
 
-         <div class="col-md-6 image">
-            <img src="images/sobre-nos.png" class="w-100 mb-5 mb-md-0" alt="">
+            <div class="col-md-6 content">
+               <span>Sobre Nós</span>
+               <h3>Quem escolheu realmente cuidar da sua saúde de verdade.</h3>
+               <p>Aqui na BluQuery somos apaixonados por saúde e bem estar. E pensando nisso decidimos criar um produto
+                  que não só trás um atendimento de qualidade como
+                  também preserva a sua saúde que é a nossa prioridade, sem burocracia ou fidelidade. Tudo pensado para
+                  facilitar a sua vida.
+               </p>
+               <a href="http://localhost:3001/" class="link-btn">Acesse nosso sistema</a>
+            </div>
+
          </div>
 
-         <div class="col-md-6 content">
-            <span>Sobre Nós</span>
-            <h3>Quem escolheu realmente cuidar da sua saúde de verdade.</h3>
-            <p>Aqui na BluQuery somos apaixonados por saúde e bem estar. E pensando nisso decidimos criar um produto que não só trás um atendimento de qualidade como
-               também preserva a sua saúde que é a nossa prioridade, sem burocracia ou fidelidade. Tudo pensado para facilitar a sua vida.
+      </div>
+
+   </section>
+
+   <!-- about section ends -->
+
+   <!-- services section starts  -->
+
+   <section class="services" id="services">
+
+      <h1 class="heading">Nossos Serviços</h1>
+
+      <div class="box-container container">
+
+         <div class="box">
+            <img src="images/psicologo.svg" alt="">
+            <h3>Psicologia</h3>
+            <p>
+               A Psicologia é uma ciência que estuda o comportamento e os processos mentais humanos.
+               Através de análises complexas e criteriosas das emoções dos indivíduos,
+               um profissional de Psicologia atua para promover, proteger e reabilitar a saúde mental,
+               visando bem-estar e qualidade de vida individual e coletiva.
             </p>
-            <a href="login.php" class="link-btn">Acesse nosso sistema</a>
+         </div>
+
+         <div class="box">
+            <img src="images/ortopedico.svg" alt="">
+            <h3>Ortopedia</h3>
+            <p>
+               A ortopedia consiste na especialidade médica responsável por diagnosticar, tratar e
+               acompanhar lesões que afetam o sistema locomotor, ou seja,
+               todas as doenças e traumas que acometem os músculos, articulações, ossos e ligamentos.
+            </p>
+         </div>
+
+         <div class="box">
+            <img src="images/medico-_2_.svg" alt="">
+            <h3>Pediatria</h3>
+            <p>
+               A função do pediatra, muito mais do que tratar a doença, é acompanhar o desenvolvimento da criança.
+               Por isso, as consultas, em geral, são mais demoradas e servem para os pais
+               tirarem dúvidas e receberem orientações sobre alimentação, sono, vacinas,
+               prevenção de doenças e acidentes, educação dos filhos etc.
+            </p>
+         </div>
+
+         <div class="box">
+            <img src="images/equipe-medica.png" alt="">
+            <h3>Cliníco Geral</h3>
+            <p>
+               O profissional faz diagnósticos, pede exames, realiza cirurgias e prescreve medicamentos.
+               Além de ter o compromisso de receber e acompanhar os pacientes nos consultórios, clínicas,
+               hospitais e locais de urgência, conversa ouvindo suas queixas sobre seus sintomas para examinar
+               e fazer o diagnóstico.
+            </p>
          </div>
 
       </div>
 
-   </div>
+   </section>
 
-</section>
+   <!-- services section ends -->
 
-<!-- about section ends -->
+   <!-- como funciona section starts  -->
 
-<!-- services section starts  -->
+   <section class="services" id="services">
 
-<section class="services" id="services">
+      <h1 class="heading">Como funciona a BluQuery?</h1>
 
-   <h1 class="heading">Nossos Serviços</h1>
+      <div class="box-container container">
 
-   <div class="box-container container">
-
-      <div class="box">
-         <img src="images/psicologo.svg" alt="">
-         <h3>Psicologia</h3>
-         <p>
-            A Psicologia é uma ciência que estuda o comportamento e os processos mentais humanos. 
-            Através de análises complexas e criteriosas das emoções dos indivíduos, 
-            um profissional de Psicologia atua para promover, proteger e reabilitar a saúde mental, 
-            visando bem-estar e qualidade de vida individual e coletiva.
-         </p>
-      </div>
-
-      <div class="box">
-         <img src="images/ortopedico.svg" alt="">
-         <h3>Ortopedia</h3>
-         <p>
-            A ortopedia consiste na especialidade médica responsável por diagnosticar, tratar e 
-            acompanhar lesões que afetam o sistema locomotor, ou seja, 
-            todas as doenças e traumas que acometem os músculos, articulações, ossos e ligamentos.
-         </p>
-      </div>
-
-      <div class="box">
-         <img src="images/medico-_2_.svg" alt="">
-         <h3>Pediatria</h3>
-         <p>
-            A função do pediatra, muito mais do que tratar a doença, é acompanhar o desenvolvimento da criança. 
-            Por isso, as consultas, em geral, são mais demoradas e servem para os pais 
-            tirarem dúvidas e receberem orientações sobre alimentação, sono, vacinas, 
-            prevenção de doenças e acidentes, educação dos filhos etc.
-         </p>
-      </div>
-
-      <div class="box">
-         <img src="images/equipe-medica.png" alt="">
-         <h3>Cliníco Geral</h3>
-         <p>
-            O profissional faz diagnósticos, pede exames, realiza cirurgias e prescreve medicamentos. 
-            Além de ter o compromisso de receber e acompanhar os pacientes nos consultórios, clínicas, 
-            hospitais e locais de urgência, conversa ouvindo suas queixas sobre seus sintomas para examinar 
-            e fazer o diagnóstico.
-         </p>
-      </div>
-
-   </div>
-
-</section>
-
-<!-- services section ends -->
-
-<!-- como funciona section starts  -->
-
-<section class="services" id="services">
-
-   <h1 class="heading">Como funciona a BluQuery?</h1>
-
-   <div class="box-container container">
-
-      <div class="box">
-         <img src="images/calendario.svg" alt="">
-         <h3>Agendamento</h3>
-         <p>
-            O profissional disponibiliza os horários de atendimento via Telemedicina
-            e seu paciente pode marcar a própria consulta.
-         </p>
-      </div>
-
-      <div class="box">
-         <img src="images/triagem.svg" alt="">
-         <h3>Triagem e classificação</h3>
-         <p>
-            Disponibilizado um questionário de triagem ao
-            paciente enquanto aguarda atendimento e classificado por risco.
-         </p>
-      </div>
-
-      <div class="box">
-         <img src="images/pagar.svg" alt="">
-         <h3>Pagamento Online</h3>
-         <p>
-            Nosso marketplace de pagamentos, aceita
-            cartão de crédito e boleto bancário e faz o
-            repasse ao médico automaticamente.
-         </p>
-      </div>
-
-      <div class="box">
-         <img src="images/crescimento.svg" alt="">
-         <h3>Evolução Médica</h3>
-         <p>
-            Todo histórico do paciente fica salvo na Plataforma,
-            independente do profissional que o atendeu.
-         </p>
-      </div>
-
-   </div>
-
-</section>
-
-<!-- como funciona section ends -->
-
-<!-- reviews section starts  -->
-
-<section class="reviews" id="reviews">
-
-   <h1 class="heading"> Veja o que nossos clientes estão dizendo </h1>
-
-   <div class="box-container container">
-
-      <div class="box">
-         <img src="images/guga.jpeg" alt="">
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <img src="images/calendario.svg" alt="">
+            <h3>Agendamento</h3>
+            <p>
+               O profissional disponibiliza os horários de atendimento via Telemedicina
+               e seu paciente pode marcar a própria consulta.
+            </p>
          </div>
-         <h3>Gugla Clake</h3>
-         <span>satisfied client</span>
-      </div>
 
-      <div class="box">
-         <img src="images/daniel.jpg" alt="">
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <img src="images/triagem.svg" alt="">
+            <h3>Triagem e classificação</h3>
+            <p>
+               Disponibilizado um questionário de triagem ao
+               paciente enquanto aguarda atendimento e classificado por risco.
+            </p>
          </div>
-         <h3>Daniel Fer</h3>
-         <span>satisfied client</span>
-      </div>
 
-      <div class="box">
-         <img src="images/joao.jpg" alt="">
-         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, iure? Nemo est aspernatur voluptatum id, laboriosam asperiores iure omnis alias?</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <img src="images/pagar.svg" alt="">
+            <h3>Pagamento Online</h3>
+            <p>
+               Nosso marketplace de pagamentos, aceita
+               cartão de crédito e boleto bancário e faz o
+               repasse ao médico automaticamente.
+            </p>
          </div>
-         <h3>João Dudu</h3>
-         <span>satisfied client</span>
+
+         <div class="box">
+            <img src="images/crescimento.svg" alt="">
+            <h3>Evolução Médica</h3>
+            <p>
+               Todo histórico do paciente fica salvo na Plataforma,
+               independente do profissional que o atendeu.
+            </p>
+         </div>
+
       </div>
 
-   </div>
+   </section>
 
-</section>
+   <!-- como funciona section ends -->
 
-<!-- reviews section ends -->
+   <!-- reviews section starts  -->
 
-<!-- contact section starts  -->
+   <section class="reviews" id="reviews">
 
-<section class="contact" id="contact">
+      <h1 class="heading"> Veja o que nossos clientes estão dizendo </h1>
 
-   <h1 class="heading">Tem dúvidas? Entre em contato</h1>
+      <div class="box-container container">
 
-   <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-      <!-- <?php 
+         <div class="box">
+            <img src="images/guga.jpeg" alt="">
+            <p>Estava com uma dúvida sobre alguns sintomas e em menos de 1 hora consegui realizar uma consulta. </p>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Gustavo Santini</h3>
+            <span>cliente satisfeito</span>
+         </div>
+
+         <div class="box">
+            <img src="images/daniel.jpg" alt="">
+            <p>Mostraram que podemos sim aumentar a distância do atendimento, sem perder a qualidade.</p>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Daniel Fernandino</h3>
+            <span>cliente satisfeito</span>
+         </div>
+
+         <div class="box">
+            <img src="images/joao.jpg" alt="">
+            <p>Graças a ferramenta desenvolvida consegui me comunicar com muita mais facilidade com um especialista.</p>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>João Eduardo</h3>
+            <span>cliente satisfeito</span>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- reviews section ends -->
+
+   <!-- contact section starts  -->
+
+   <section class="contact" id="contact">
+
+      <h1 class="heading">Tem dúvidas? Entre em contato</h1>
+
+      <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+         <!-- <?php 
          if(isset($message)){
             foreach($message as $message){
                echo '<p class="message">'.$message.'</p>';
             }
          }
       ?> -->
-      <span>seu nome :</span>
-      <input type="text" name="name" placeholder="Digite seu nome" class="box" required>
-      <span>seu e-mail :</span>
-      <input type="email" name="email" placeholder="Digite seu melhor e-mail" class="box" required>
-      <span>seu número :</span>
-      <input type="number" name="number" placeholder="Digite seu melhor número" class="box" required>
-      <span>data da consulta :</span>
-      <input type="datetime-local" name="date" class="box" required>
-      <input type="submit" value="Enviar" name="submit" class="link-btn">
-   </form>  
+         <span>seu nome :</span>
+         <input type="text" name="name" placeholder="Digite seu nome" class="box" required>
+         <span>seu e-mail :</span>
+         <input type="email" name="email" placeholder="Digite seu melhor e-mail" class="box" required>
+         <span>seu número :</span>
+         <input type="number" name="number" placeholder="Digite seu melhor número" class="box" required>
+         <span>data da consulta :</span>
+         <input type="datetime-local" name="date" class="box" required>
+         <input type="submit" value="Enviar" name="submit" class="link-btn">
+      </form>
 
-</section>
+   </section>
 
-<!-- contact section ends -->
+   <!-- contact section ends -->
 
-<!-- footer section starts  -->
+   <!-- footer section starts  -->
 
-<section class="footer">
+   <section class="footer">
 
-   <div class="box-container container">
+      <div class="box-container container">
 
-      <div class="box">
-         <i class="fas fa-phone"></i>
-         <h3>Número de telefone</h3>
-         <p>(11) 4002-8922</p>
-         <p>(11) 7070-3030</p>
+         <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>Número de telefone</h3>
+            <p>(11) 4002-8922</p>
+            <p>(11) 7070-3030</p>
+         </div>
+
+         <div class="box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Nosso endereço</h3>
+            <p>R. Augusta, 973 - Consolação, São Paulo - SP, 01305-100</p>
+         </div>
+
+         <div class="box">
+            <i class="fas fa-clock"></i>
+            <h3>Horário de Funcionamento</h3>
+            <p>09:00 - 18:00</p>
+         </div>
+
+         <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>E-mail para contato</h3>
+            <p>guglaclake@gmail.com</p>
+            <p>danielfer@gmail.com</p>
+         </div>
+
       </div>
-      
-      <div class="box">
-         <i class="fas fa-map-marker-alt"></i>
-         <h3>Nosso endereço</h3>
-         <p>R. Augusta, 973 - Consolação, São Paulo - SP, 01305-100</p>
+
+      <div class="credit"> &copy; copyright @
+         <?php echo date('Y'); ?> by <span>BluQuery</span>
       </div>
 
-      <div class="box">
-         <i class="fas fa-clock"></i>
-         <h3>Horário de Funcionamento</h3>
-         <p>09:00 - 18:00</p>
-      </div>
+   </section>
 
-      <div class="box">
-         <i class="fas fa-envelope"></i>
-         <h3>E-mail para contato</h3>
-         <p>guglaclake@gmail.com</p>
-         <p>danielfer@gmail.com</p>
-      </div>
-
-   </div>
-
-   <div class="credit"> &copy; copyright @ <?php echo date('Y'); ?> by <span>BluQuery</span>  </div>
-
-</section>
-
-<!-- footer section ends -->
+   <!-- footer section ends -->
 
 
 
@@ -362,8 +369,9 @@
 
 
 
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+   <!-- custom js file link  -->
+   <script src="js/script.js"></script>
 
 </body>
+
 </html>
