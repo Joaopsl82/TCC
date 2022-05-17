@@ -15,7 +15,7 @@ import * as Notifications from '../services/notifications';
 
 export default function Login({ history }) {
 
-  const [email, setEmail] = useState('daniel@teste.com');
+  const [email, setEmail] = useState('@teste.com');
   const [password, setPassword] = useState('Pass123');
 
   if (history.location.state && history.location.state.cadastroSucesso) {

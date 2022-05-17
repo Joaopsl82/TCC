@@ -43,7 +43,7 @@ export default function NavBarProfissional(props) {
                         button
                         key='Relatório'
                         onClick={
-                            () => props.history.push('/Relatorio')
+                            window.open("http://localhost:3000/")
                         }
                     >
                         <ListItemIcon>
