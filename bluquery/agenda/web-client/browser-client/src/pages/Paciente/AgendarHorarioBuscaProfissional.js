@@ -182,7 +182,6 @@ export default function AgendarHorarioBuscaProfissional({ profissional }) {
     if (!selectedDate || !horario.horarioId || !especialidade.especialidadeId || !validatePagamento()) {
       Notifications.showError("É necessário preencher todos os campos!");
     } else {
-      window.open("http://localhost/tcc/bluquery/checkout.html")
       const response = await api.post("/Consulta",{
         data: new Date(selectedDate.getFullYear(), selectedDate.getMonth(), selectedDate.getDate()),
         horaInicio: listaHorarios.filter(h => h.horarioId == horario.horarioId).pop().horaInicio,
